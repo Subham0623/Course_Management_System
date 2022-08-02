@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="courseinserter3">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="506" height="700"/>
+    </constraints>
+    <properties>
+      <background color="-12931159"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="e6cfe" layout-manager="GridLayoutManager" row-count="21" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12931159"/>
+          <font name="JetBrains Mono" style="1"/>
+          <foreground color="-15260374"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="985bf" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="16" style="1"/>
+              <foreground color="-15260374"/>
+              <text value="Enter module and instroctor name of 3rd year"/>
+            </properties>
+          </component>
+          <component id="1b9b4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="12" style="1"/>
+              <foreground color="-15260374"/>
+              <text value="Coursename"/>
+            </properties>
+          </component>
+          <component id="8d84f" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="12" style="1"/>
+              <foreground color="-15260374"/>
+              <text value="Instructor name"/>
+            </properties>
+          </component>
+          <component id="7ffb1" class="javax.swing.JTextField" binding="m11">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="5f83b" class="javax.swing.JTextField" binding="in11">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="54dfd" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="14" style="1"/>
+              <foreground color="-15260374"/>
+              <text value="1st Semester"/>
+            </properties>
+          </component>
+          <component id="60d45" class="javax.swing.JTextField" binding="m12">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="223f4" class="javax.swing.JTextField" binding="in12">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="afd4b" class="javax.swing.JTextField" binding="m13">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="dccf8" class="javax.swing.JTextField" binding="in13">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="bd4d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="14" style="1"/>
+              <foreground color="-15260374"/>
+              <text value="2nd Semester"/>
+            </properties>
+          </component>
+          <component id="73625" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="17" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" style="1"/>
+              <foreground color="-15260374"/>
+              <text value="3rd module"/>
+            </properties>
+          </component>
+          <component id="c9894" class="javax.swing.JTextField" binding="m21">
+            <constraints>
+              <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="2e9e0" class="javax.swing.JTextField" binding="m22">
+            <constraints>
+              <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="87735" class="javax.swing.JTextField" binding="m23">
+            <constraints>
+              <grid row="18" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="faec9" class="javax.swing.JTextField" binding="in21">
+            <constraints>
+              <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="72b9f" class="javax.swing.JTextField" binding="in22">
+            <constraints>
+              <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="6d3f7" class="javax.swing.JTextField" binding="in23">
+            <constraints>
+              <grid row="18" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="4b19a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" style="1"/>
+              <foreground color="-15260374"/>
+              <text value="1st module"/>
+            </properties>
+          </component>
+          <component id="ade97" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" style="1"/>
+              <foreground color="-15260374"/>
+              <text value="2nd module"/>
+            </properties>
+          </component>
+          <component id="144b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" style="1"/>
+              <foreground color="-15260374"/>
+              <text value="3rd module"/>
+            </properties>
+          </component>
+          <component id="2b9ce" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="12" style="1"/>
+              <foreground color="-15260374"/>
+              <text value="Course name"/>
+            </properties>
+          </component>
+          <component id="aa7d3" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="12" style="1"/>
+              <foreground color="-15260374"/>
+              <text value="Instructor name"/>
+            </properties>
+          </component>
+          <component id="29c8c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="15" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" style="1"/>
+              <foreground color="-15260374"/>
+              <text value="2nd module"/>
+            </properties>
+          </component>
+          <component id="7eaf4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="13" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" style="1"/>
+              <foreground color="-15260374"/>
+              <text value="1st module"/>
+            </properties>
+          </component>
+          <component id="fb455" class="javax.swing.JPasswordField" binding="p1">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="4d936" class="javax.swing.JPasswordField" binding="p2">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="7f65f" class="javax.swing.JPasswordField" binding="p3">
+            <constraints>
+              <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="f5bfe" class="javax.swing.JPasswordField" binding="p4">
+            <constraints>
+              <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="d3ded" class="javax.swing.JPasswordField" binding="p5">
+            <constraints>
+              <grid row="16" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="a2032" class="javax.swing.JPasswordField" binding="p6">
+            <constraints>
+              <grid row="18" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="83ca1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="12" style="1"/>
+              <foreground color="-15260374"/>
+              <text value="Password of instructor"/>
+            </properties>
+          </component>
+          <component id="ec7df" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="12" style="1"/>
+              <foreground color="-15260374"/>
+              <text value="Password of instructor"/>
+            </properties>
+          </component>
+          <component id="4b64c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" style="1"/>
+              <foreground color="-15260374"/>
+              <text value="4th module"/>
+            </properties>
+          </component>
+          <component id="5b150" class="javax.swing.JTextField" binding="m14">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="ddc1e" class="javax.swing.JTextField" binding="in14">
+            <constraints>
+              <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="95a7a" class="javax.swing.JPasswordField" binding="p17">
+            <constraints>
+              <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="1a4da" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="19" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" style="1"/>
+              <foreground color="-15260374"/>
+              <text value="4th module"/>
+            </properties>
+          </component>
+          <component id="2cbbc" class="javax.swing.JTextField" binding="m24">
+            <constraints>
+              <grid row="20" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="ae5d7" class="javax.swing.JTextField" binding="in24">
+            <constraints>
+              <grid row="20" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+          <component id="eba8b" class="javax.swing.JPasswordField" binding="p27">
+            <constraints>
+              <grid row="20" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-855041"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="64568" class="javax.swing.JButton" binding="done">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-855041"/>
+          <font name="JetBrains Mono" style="1"/>
+          <foreground color="-15260374"/>
+          <text value="    Done     "/>
+        </properties>
+      </component>
+      <component id="960ba" class="javax.swing.JButton" binding="back">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-855041"/>
+          <font name="JetBrains Mono" style="1"/>
+          <foreground color="-15260374"/>
+          <text value="     Back    "/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
